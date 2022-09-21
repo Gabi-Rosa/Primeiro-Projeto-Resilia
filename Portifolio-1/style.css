@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
+
+/*#2D5C4A
+#58E178*/
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+body{
+    background: #2a2d38fb;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 350px;
+    height: 550px;
+    background:  #3a3e4dfb;
+    box-shadow: 10px 10px 1.2em #F5F190 ;
+    border: 1px solid #F5F190;
+    border-radius: 5px;
+    
+}
+
+.topo{
+   text-align: center;
+   margin-top: 1em;
+}
+
+.foto_perfil{
+    width: 200px;
+    border-radius: 80px;
+    box-shadow: 0.5px 0.5px 0.5em #F5F190;
+}
+
+.name{
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(252, 230, 230);
+    text-shadow: 3px 1px #706f43;
+}
+
+.description{
+    color: rgb(252, 230, 230);
+    font-weight: 300;
+    text-shadow: 3px 1px #706f43a1;
+}
+
+#about,.sobre,.contato{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(252, 230, 230);
+    font-weight: 600;
+}
+
+.sb{
+    margin: 40px 30px 0px;
+}
+
+.ct,.portifolio{
+    margin: 20px 30px 0px;
+}
+
+/*estilo da página sobre*/
+
+.titulo_sobre{
+    color: rgb(252, 230, 230);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+    text-shadow: 3px 1px #706f43;
+}
+
+.texto{
+    color: rgb(252, 230, 230);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 20px 20px;
+    font-size: 1.1em;
+}
+
+.portifolio,.portifolio_item{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(252, 230, 230);
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.sobre:hover{
+    color: black;
+    padding: 10px 20px;
+    animation:mousehover 1s ;
+    background: #F5F190;
+    border-radius: 5px;  
+}
+
+.contato:hover{
+    color: black;
+    padding: 10px 20px;
+    animation:mousehover 1s ;
+    background: #F5F190;
+    border-radius: 5px; 
+}
+
+.portifolio_item:hover{
+    color: black;
+    padding: 10px 20px;
+    animation:mousehover 1s ;
+    background: #F5F190;
+    border-radius: 5px;
+}
+
+#social{
+    text-align: center; 
+    
+}
+.email{
+    margin: 20px 10px; 
+    padding: 10px;
+}
+
+.likendin{
+    margin: 40px;
+
+}
+
+.instagram{
+    margin: 60px 0px;
+}
+
+.likendin_texto, .instagram_texto,.email_texto{
+    color: rgb(252, 230, 230);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.email_texto:hover{
+    background: #F5F190;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.likendin_texto:hover{
+    background: #F5F190;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.instagram_texto:hover{
+    background: #F5F190;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+@media(max-width: 380px){
+    #container{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;}
+
+    .portifolio_item:hover{
+        border-radius: 10px;
+    }
+
+    .logo{
+        width: 300px;
+    }
+}
